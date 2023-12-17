@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+    background-image: url('space.gif');
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position-x: 600px;
+    background-position-y: 50px;
+    color: azure;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    height: 60  px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: "Copperplate", "Courier New";
+}
+
+p {
+    font-size: 25px;
+    font-family: "Copperplate", "Courier New";
+    position: relative;
+    top: -20px;
+    left: 40px;
+}
+
+h2 {
+    font-size: 70px;
+    position: relative;
+    top: 0px;
+    left: 40px;
+}
+
+.email-signup {
+    margin-top: 20px;
+}
+
+.email-signup input[type=email] {
+    width: 250px;
+    padding: 10px;
+    border: 2px solid #000000;
+    background-color: #363636ac;
+    color:white;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-right: 10px;
+    position: relative;
+    top:10px;
+    left:40px;
+}
+
+.email-signup button {
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    background-color: #363636ac;
+    color:rgb(154, 154, 154);
+    cursor: pointer;
+    position: relative;
+    top:10px;
+    left:40px;
+}
+
+footer {
+    display: flex; /* Enables flexbox */
+    align-items: center; /* Vertically centers the flex items */
+    justify-content: space-between; /* Distributes space between items */
+    background-color: black;
+    color: white;
+    padding: 20px;
+    position: relative;
+    bottom: -220px;
+    width: 100%;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 0;
+    position: relative;
+    left: -550px;
+    top: -15px;
+}
+
+footer img {
+    position: relative;
+    left: 1350px;
+    top: -15px;
+}
